@@ -1,6 +1,6 @@
 from Stacks_Python import Stack
 
-def convert2Binary(n):
+def convertDecimal2Binary(n):
     remStack = Stack()
     while n>0:
         rem = n%2
